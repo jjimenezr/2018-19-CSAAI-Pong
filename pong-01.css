@@ -1,3 +1,58 @@
 #display{
-  background-color: black;
+  background-image: url("trifuerza.png");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+
+#title{
+  text-align: center;
+  text-shadow: 3px 2px orange;
+  color: black;
+  font-family: "tangerine",serif;
+  font-size: xx-large;
+}
+
+body{
+  background-color: palegreen;
+}
+
+#saque{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color: turquoise;
+  background-color: gray;
+  border-radius: 15px;
+  border: 3px double orange;
+  text-align: center;
+}
+
+#saque:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.saque{
+  text-align: center;
+}
+
+#text{
+  font-size: xx-large;
+  text-align: justify;
+  text-align: center;
+  text-shadow: 3px 2px orange;
+  color: black;
+  font-family: "tangerine",serif;
 }

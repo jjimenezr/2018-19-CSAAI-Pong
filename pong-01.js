@@ -174,6 +174,7 @@ function main()
           if(bolita.y >= raquet1.y && bolita.y <= raquet1.y + raquet1.height){
             bolita.vx = 5;
             bolita.direction = "right";
+            monedasound.play()
           }
         }
 
@@ -182,6 +183,7 @@ function main()
           if(bolita.y >= raquet2.y && bolita.y <= raquet2.y + raquet2.height){
             bolita.vx = -5;
             bolita.direction = "left";
+            monedasound.play()
           }
         }
 
